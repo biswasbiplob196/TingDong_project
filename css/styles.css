@@ -33,16 +33,24 @@ p {
     color: rgb(138, 132, 132) !important;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: #fffcfc !important;
-    text-align: left;
+.container-fluid {
+    padding: 3% 15% 7% !important;
 }
+
+/* section  */
+
+.colored-section {
+    background-color: #ff4c68 !important;
+    color: #fffcfc !important;
+
+}
+
 
 /* navigation bar */
 
 .navbar {
     padding: 0 0 4.5rem !important;
+
 }
 
 .navbar-brand {
@@ -65,12 +73,6 @@ p {
     color: rgb(182, 170, 170) !important;
 }
 
-/* Download button */
-
-.download-button {
-    margin: 5% 3% 0 3%;
-}
-
 .navigation a {
     color: #ffffff !important;
 }
@@ -79,11 +81,26 @@ p {
     color: #f7f3f3 !important;
 }
 
-.container-fluid {
-    padding: 3% 15% 7% !important;
+
+/* title section */
+
+
+#title {
+    text-align: left;
 }
 
 
+
+#title .container-fluid {
+    padding: 3% 15% !important;
+}
+
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 0 3%;
+}
 
 /* Title Image  */
 
@@ -94,7 +111,7 @@ p {
     border-radius: 5px;
     transform: rotate(25deg);
     position: absolute;
-    right: 15%;
+    right: 5%;
 }
 
 /* features section */
@@ -160,7 +177,7 @@ em {
 /* pricing section */
 
 #pricing {
-    padding: 7% 15%;
+    margin: 7% 15%;
 }
 
 #pricing h2 {
@@ -225,8 +242,36 @@ em {
     .title-image {
         position: static;
         transform: rotate(0);
-        padding-top: 7%;
-        width: 350px;
+        padding: 7% 7%;
+        width: 300px;
+        margin: auto;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 400;
+        line-height: 1.2 !important;
+    }
+
+    h1 {
+        font-size: 2.8rem !important;
+    }
+
+    h2 {
+        font-size: 1.9rem !important;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+
+    #cta h3 {
+        font-size: 1.5rem !important;
+        line-height: 1.2 !important;
     }
 
 }
